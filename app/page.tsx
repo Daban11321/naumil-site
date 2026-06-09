@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer"
 import { Hero } from "@/components/home/hero"
 import { Products } from "@/components/home/products"
 import { DistributorCTA } from "@/components/home/distributor-cta"
+import { GlobalDistribution } from "@/components/global-distribution"
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
       <Hero />
       <Products />
       <DistributorCTA />
+      <GlobalDistribution />
       <Footer />
     </main>
   )
